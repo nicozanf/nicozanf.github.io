@@ -1,5 +1,6 @@
-Here you can say lots of fun things about your site.
+This is just a start page, I wanna see if it's working!
 
-Maybe say a some things about yourself.
+Maybe this will become a full blog, who knows?
 
-Or maybe what you plan to blog about.
+Cheers,
+Nico
