@@ -1,3 +1,6 @@
+---
+tags: General
+---
 # How this blog works
 This blog was built up on GitHub, following [this documentation](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html) (thanks Chad Baldwin!).
 
