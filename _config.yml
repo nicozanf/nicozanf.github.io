@@ -13,6 +13,11 @@ github_username: "nicozanf"
 #youtube_username: username
 #googleplus_username: +username
 
+# Used by simple links page
+social-links:
+  LinkedIn:        https://www.linkedin.com/in/nicozanf
+  GitHub:          https://github.com/nicozanf
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
