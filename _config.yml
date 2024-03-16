@@ -4,8 +4,9 @@ description: "Well, let's start here." # This will show up in places like twitte
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "nicozanf@gmail.com"
-github_username: "nicozanf"
+email: nicozanf@gmail.com
+github_username: nicozanf
+linkedin_username: nicozanf
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
