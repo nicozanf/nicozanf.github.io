@@ -1,6 +1,6 @@
 ---
 tags: py4web
-published: false
+published: true
 ---
 # How to install py4web from source on PythonAnywhere for free
 
@@ -31,7 +31,7 @@ You don't need a credit card to create the free account, and be sure that they w
 
 * Visit [PythonAnywhere](https://www.pythonanywhere.com/pricing/) and choose **Create a Beginner Account**
 
-![Screenshot showing Creating a Beginner account](img/py4web-on-pythonanywhere/Create_account.png)
+![Screenshot showing Creating a Beginner account](/img/py4web-on-pythonanywhere/Create_Account.png)
 
 If you're using the free account, remember that your username will also be your subdomain (the first part of your public URL). So if your
 username is `mycoolsite`, the URL will be `mycoolsite.pythonanywhere.com`.
@@ -165,9 +165,9 @@ Py4web uses [Bottle](http://bottlepy.org). So:
 
 You're asked to select a Python version.
 
-* Choose **Python 3.8** (Bottle doesn't work with earlier versions):
+* Choose **Python 3.10** (or later versions if available):
 
-![Screenshot showing Python 3.x and Bottle being selected](img/py4web-on-pythonanywhere/python_version.png)
+![Screenshot showing Python 3.x and Bottle being selected](/img/py4web-on-pythonanywhere/python_version.png)
 
 The **Quickstart new Bottle Project** dialog appears. You're asked to give the location where a `bottle_app.py` file will be generated. 
 It looks something like this, where `your_username` stands in for the PythonAnywhere username you created on signup.
@@ -297,10 +297,10 @@ Near the top you'll see **Configuration for** and the URL of your website in lin
 
 It should look like this:
 
-![Screen shot of the py4web home page](assets/img/py4web-home-1024x384.png)
+![Screen shot of the py4web home page](/img/py4web-on-pythonanywhere/py4web-home.png)
 
 To begin writing py4web apps choose **Dashboard**.
 
 * You'll be asked for the password you created earlier. When you enter it you'll see the py4web dashboard:
 
-![Screen shot of the py4web home page](assets/img/py4web-dash-1024x384.png)
+![Screen shot of the py4web home page](/img/py4web-on-pythonanywhere/py4web-dash.png)
