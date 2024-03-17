@@ -31,7 +31,7 @@ You don't need a credit card to create the free account, and be sure that they w
 
 * Visit [PythonAnywhere](https://www.pythonanywhere.com/pricing/) and choose **Create a Beginner Account**
 
-![Screenshot showing Creating a Beginner account](img/pythonanywhere-create-new-account.png)
+![Screenshot showing Creating a Beginner account](img/py4web-on-pythonanywhere/Create_account.png)
 
 If you're using the free account, remember that your username will also be your subdomain (the first part of your public URL). So if your
 username is `mycoolsite`, the URL will be `mycoolsite.pythonanywhere.com`.
