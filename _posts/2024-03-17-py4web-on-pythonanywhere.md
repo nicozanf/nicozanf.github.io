@@ -1,5 +1,5 @@
 ---
-tags: General Python
+tags: py4web
 published: false
 ---
 # How to install py4web from source on PythonAnywhere for free
