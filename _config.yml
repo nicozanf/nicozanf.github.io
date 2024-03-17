@@ -4,9 +4,10 @@ description: "Yet another sysadmin blog" # This will show up in places like twit
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: nicozanf@gmail.com
-github_username: nicozanf
+email:             nicozanf@gmail.com
+github_username:   nicozanf
 linkedin_username: nicozanf
+Twitter:           https://twitter.com/nicozanf
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -26,6 +27,17 @@ theme: "minima"
 
 rss: rss
 
+# plugin: jekyll-seo-tag
+twitter:
+  username: nicozanf
+  card: summary_large_image
+social:
+  name: Nico Zanferrari
+  links:
+    - https://twitter.com/icozanf
+    - https://linkedin.com/in/nicozanf
+    - https://github.com/nicozanf
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
@@ -33,6 +45,9 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+google_analytics:
+  - G-0Z5VKXKZRT # New GA4 property
 
 titles_from_headings:
   strip_title: true
