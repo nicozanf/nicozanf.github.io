@@ -4,9 +4,7 @@ published: true
 ---
 # How to install py4web from source on PythonAnywhere for free
 
-> [!NOTE]
-> This article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md).
-> I've just added more stuff, updated it, and added few more screenshots. Thanks Tom!
+{% include note.html content="TThis article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md). I've just added more stuff, updated it, and added few more screenshots. Thanks Tom!" %}
 
 One of the easiest ways to learn [py4web](https://py4web.com) is to create a
 free account on [PythonAnywhere](https://pythonanywhere.com). While
