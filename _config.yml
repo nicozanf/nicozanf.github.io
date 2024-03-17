@@ -46,8 +46,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-#google_analytics:
-#  - G-0Z5VKXKZRT # New GA4 property
+google_analytics:
+  - G-0Z5VKXKZRT # New GA4 property
 
 titles_from_headings:
   strip_title: true
