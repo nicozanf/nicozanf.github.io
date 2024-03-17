@@ -7,7 +7,8 @@ description: "Yet another sysadmin blog" # This will show up in places like twit
 email:             nicozanf@gmail.com
 github_username:   nicozanf
 linkedin_username: nicozanf
-Twitter:           https://twitter.com/nicozanf
+twitter_username:  nicozanf
+x_username:  nicozanf
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -19,6 +20,7 @@ Twitter:           https://twitter.com/nicozanf
 social-links:
   LinkedIn:        https://www.linkedin.com/in/nicozanf
   GitHub:          https://github.com/nicozanf
+  Twitter:         https://twitter.com/nicozanf
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
