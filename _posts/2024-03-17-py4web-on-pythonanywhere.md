@@ -76,8 +76,12 @@ You'll see **Start a new Console**.
 
 * Next to Other, choose **Bash**.
 
+![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/console.png)
+
+
 After a few seconds, the Bash prompt appears in a new browser tab. It looks roughly like this: `~ $`.
 
+![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/console_bash.png)
 
 ## Clone the GitHub repo
 
