@@ -1,6 +1,7 @@
-This is just a start page, I wanna see if it's working!
+# Yet another sysadmin blog
 
-Maybe this will become a full blog, who knows?
+In this blog you'll find some technical resources that I've discovered and that I've tested myself, mainly for python and Open Source.
 
-Cheers,
+I hope they'll be useful for you, too!
+
 Nico
