@@ -3,10 +3,10 @@ tags: py4web
 published: true
 ---
 
-# How to install py4web from source on PythonAnywhere for free
+# How to easily install py4web on PythonAnywhere
 
 ---
->> "This article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md). I've just added more stuff, updated it, and added few more screenshots. Thanks Tom!" 	{{end}} 
+>> "This article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md). I've just added more stuff, updated it, and added other screenshots. Thanks Tom!" 	{{end}} 
 ---
 
 One of the easiest ways to learn [py4web](https://py4web.com) is to create a
@@ -14,13 +14,10 @@ free account on [PythonAnywhere](https://pythonanywhere.com). While
 PythonAnywhere has ready-to-go  presets for other frameworks, such as 
 webp2y or Django, you'll have to manually install py4web yourself.
 
-This tutorial shows you step by step how to install and run py4web.
+This tutorial shows you step by step how to install and run the latest py4web framework from source.
 It is meant for people with limited system administration knowledge, and it shouldn't leave anything out. 
 
-## Important note: If this doesn't work, please file an issue
-
-Everything you need to install py4web on PythonAnywhere should be documented here. If you encounter any problems, or
-need something explained better, please leave a comment.
+## Important note: If this doesn't work, please leave a comment
 
 ## Create a PythonAnywhere account
 
@@ -47,10 +44,10 @@ You're given brief online tour of PythonAnywhere.
 ### Your username is your subdomain
 
 The username you create will also serve as the subdomain name on a free PythonAnywhere account. For example,
-if your username is `totallycoolsite` then its URL will be:
+if your username is `your_username` then its URL will be:
 
 ```
-http://totallycoolsite.pythonanywhere.com
+http://your_username.pythonanywhere.com
 ```
 
 ## Go to the PythonAnywhere dashboard
