@@ -17,7 +17,7 @@ webp2y or Django, you'll have to manually install py4web yourself.
 This tutorial shows you step by step how to install and run the latest py4web framework from source.
 It is meant for people with limited system administration knowledge, and it shouldn't leave anything out. 
 
-## Important note: If this doesn't work, please leave a comment
+### Important note: If this doesn't work, please leave a comment
 
 ## Create a PythonAnywhere account
 
@@ -31,8 +31,13 @@ You don't need a credit card to create the free account, and be sure that they w
 
 ![Screenshot showing Creating a Beginner account](/img/py4web-on-pythonanywhere/Create_Account.png)
 
-If you're using the free account, remember that your username will also be your subdomain (the first part of your public URL). So if your
-username is `your_username`, the URL will be `your_username.pythonanywhere.com`.
+If you're using the free account, remember that your **username **will also be your subdomain (the first part of your public URL). So
+choose it carefully: if your username is `your_username`, the base URL will be `your_username.pythonanywhere.com` and your web site
+will be:
+
+```
+https://your_username.pythonanywhere.com
+```
 
 * Check the terms and conditions box and choose **Register**.
 
@@ -41,15 +46,6 @@ You're given brief online tour of PythonAnywhere.
 * Choose **End Tour** when you're done.
 
 
-### Your username is your subdomain
-
-The username you create will also serve as the subdomain name on a free PythonAnywhere account. For example,
-if your username is `your_username` then its URL will be:
-
-```
-http://your_username.pythonanywhere.com
-```
-
 ## Go to the PythonAnywhere dashboard
 
 Let's make sure we're on the same page, which should the the dashboard.
@@ -57,6 +53,8 @@ Let's make sure we're on the same page, which should the the dashboard.
 * Choose the [PythonAnywhere logo](https://www.pythonanywhere.com/) at the top of the page to navigate to the PythonAnywhere dashboard.
 
 You'll see a navigation menu near the top of the page that says **Dashboard  Consoles  Files  Web  Tasks  Databases**.
+
+![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/menu.png)
 
 ## Installing py4web from source on pythonanywhere
 
