@@ -32,7 +32,7 @@ You don't need a credit card to create the free account, and be sure that they w
 ![Screenshot showing Creating a Beginner account](/img/py4web-on-pythonanywhere/Create_Account.png)
 
 If you're using the free account, remember that your username will also be your subdomain (the first part of your public URL). So if your
-username is `mycoolsite`, the URL will be `mycoolsite.pythonanywhere.com`.
+username is `your_username`, the URL will be `your_username.pythonanywhere.com`.
 
 * Check the terms and conditions box and choose **Register**.
 
