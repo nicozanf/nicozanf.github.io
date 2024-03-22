@@ -53,29 +53,29 @@ Let's make sure we're on the same page, which should the the dashboard.
 
 * Choose the [PythonAnywhere logo](https://www.pythonanywhere.com/) at the top of the page to navigate to the PythonAnywhere dashboard.
 
-You'll see a navigation menu near the top of the page that says **Dashboard  Consoles  Files  Web  Tasks  Databases**.
+You'll see a navigation menu near the top of the page that says **Dashboard  Consoles  Files  Web  Tasks  Databases**. Choose the Dashboard navigation menu link.
 
-![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/menu.png)
+![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/dashboard.png)
 
 ## Installing py4web from source on pythonanywhere
 
-One of the distinct features of py4web is that it is nothing more than a Python program. py4web apps are nothing more than a simple
-directory tree structure with a few files inside an applications subdirectory, called `apps` by default. 
 This section shows how to clone the py4web repo
 from GitHub. It uses the Bash command line console supplied with PythonAnywhere.
 
 ### Start the bash console
 
 PythonAnywhere lets you run a bash console directly in your browser.
-That means you don't have to install and configure ssh to remote in. Just run bash from 
-their web page. It simulates a console right there. You can perform many common tasks as if it were happening on your
+That means you don't have to install and configure ssh to remote in: just run bash from 
+their web page. You can perform many common tasks as if it were happening on your
 own desktop without having to fiddle with ssh configuration.
 
-* From the **Dashboard  Consoles  Files  Web  Tasks  Databases** navigation menu choose **Consoles**.
+From the navigation menu:
+
+1. choose **Consoles**.
 
 You'll see **Start a new Console**.
 
-* Next to Other, choose **Bash**.
+2. choose **Bash**.
 
 ![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/console.png)
 
@@ -115,7 +115,7 @@ Make py4web the current directory:
 $ cd py4web
 ```
 
-* Enter **python3 -m pip install -U --user -r requirements.txt** to install using pip:
+* Enter **python3 -m pip install -U --user -r requirements.txt** to install py4web using pip:
 
 ```bash
 # --U updates old modules.
@@ -146,13 +146,15 @@ open another PythonAnywhere page.
 ## Go to the WebApps page and create a new web app
 
 
-* On the navigation bar near the top of the page that says **Dashboard  Consoles  Files  Web  Tasks  Databases** choose **Web**.
+* On the navigation bar near the top of the page choose **Web** and then **Add a new web app**:
 
-* Choose **Add a new web app**.
+![Screenshot showing Pythonanywhere web menu](/img/py4web-on-pythonanywhere/web_menu.png)
 
 * A dialog appears called  **Create a new web app**
 
 You're informed that PythonAnywhere is creating a URL for your site and displays that URL. The main part of the URL is your username followed by `pythonanywhere.com`.
+
+![Screenshot showing Pythonanywhere new web app](/img/py4web-on-pythonanywhere/new_webapp.png)
 
 * Choose **Next**.
 
@@ -164,11 +166,13 @@ Py4web uses [Bottle](http://bottlepy.org). So:
 
 * Choose **Bottle** from the list.
 
+![Screenshot showing Pythonanywhere bottle](/img/py4web-on-pythonanywhere/bottle.png)
+
 You're asked to select a Python version.
 
 * Choose **Python 3.10** (or later versions if available):
 
-![Screenshot showing Python 3.x and Bottle being selected](/img/py4web-on-pythonanywhere/python_version.png)
+![Screenshot showing Python 3.x and Bottle being selected](/img/py4web-on-pythonanywhere/python.png)
 
 The **Quickstart new Bottle Project** dialog appears. You're asked to give the location where a `bottle_app.py` file will be generated. 
 It looks something like this, where `your_username` stands in for the PythonAnywhere username you created on signup.
@@ -305,3 +309,15 @@ To begin writing py4web apps choose **Dashboard**.
 * You'll be asked for the password you created earlier. When you enter it you'll see the py4web dashboard:
 
 ![Screen shot of the py4web home page](/img/py4web-on-pythonanywhere/py4web-dash.png)
+
+
+Notice: if you should notice some tickets inside the py4web dashboard with errors like " "module 'lib' has no attribute 'X509_V_FLAG_NOTIFY_POLICY'",
+you can easily resolve by upgrading the OpenSSL python libraries provided by PythonAnywhere with the bash command:
+
+```bash
+$ pip3 install pyOpenSSL --upgrade
+```
+
+Don't forget to reload the py4web application using the Web main menu on PythonAnywhere, as shown before.
+
+
