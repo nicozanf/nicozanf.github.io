@@ -1,15 +1,16 @@
 ---
 tags: py4web
 published: true
+comments: true
 ---
 
 # How to easily install py4web on PythonAnywhere
 
 ---
->> "This article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md). I've just added more stuff, updated it, and added other screenshots. Thanks Tom!" 	{{end}} 
+>> "This article was originally published by Tom Campbell @tomcam [here](https://github.com/tomcam/py4webcasts/blob/master/docs/how-install-source-pythonanywhere.md). I've just added more stuff, updated it, and added other screenshots. Thanks Tom!"
 ---
 
-One of the easiest ways to learn [py4web](https://py4web.com) is to create a
+One of the easiest ways to learn and play with [py4web](https://py4web.com) is to create a
 free account on [PythonAnywhere](https://pythonanywhere.com). While
 PythonAnywhere has ready-to-go  presets for other frameworks, such as 
 webp2y or Django, you'll have to manually install py4web yourself.
@@ -21,8 +22,8 @@ It is meant for people with limited system administration knowledge, and it shou
 
 ## Create a PythonAnywhere account
 
-If you don't have one, you need to create a (free) PythonAnywhere account. They don't require a credit card, which 
-means it's practical for developers without good access to an American payment system. 
+If you still don't have one, you need to create a (free) PythonAnywhere account. They don't require a credit card, which 
+means it's also practical for developers without good access to an American payment system. 
 
 PythonAnywhere generously allows you to create a full working account for free, allowing you to create py4web apps.
 You don't need a credit card to create the free account, and be sure that they will not ask you anything.
